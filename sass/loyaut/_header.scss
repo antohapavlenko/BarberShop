@@ -1,0 +1,117 @@
+.header__aside--flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header {
+    background-image: url(/img/Header.jpg);
+}
+
+.nav {
+    display: flex;
+    padding-top: 52px;
+    padding-bottom: 184px;
+    padding: 52px 55px 184px 40px;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    margin-right: 322px;
+}
+
+.nav__contacts {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item:not(:last-child) {
+    padding-right: 40px;
+}
+
+.nav__link {
+    color: $white-color;
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+   
+}
+
+.nav__tel {
+    padding-right: 40px;
+    color: $white-color;
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+.nav__bottom {
+    color: $white-color;
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+.header__slogan {
+    padding-bottom: 20px;
+    padding-left: 100px;
+    
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.header__title {
+    padding-bottom: 20px;
+    padding-left: 100px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    color: $white-color;
+
+}
+
+.header__subtitle {
+    padding-bottom: 206px;
+    padding-left: 100px;   
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: $additional-color;
+}
+
+
+.nav__aside {
+    display: flex;   
+}
+
+.nav__aside {
+    display: flex;
+    flex-direction: row;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+
+.nav__aside--link {
+    margin-bottom: 40px;  
+}
+
+
+.logo {
+    margin-top: 282px;
+}
